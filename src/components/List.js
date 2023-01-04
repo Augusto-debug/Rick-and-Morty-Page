@@ -73,6 +73,7 @@ function List() {
                 </li>
               )}
             </ul>
+            <p>Total Pages: {pageInfo.pages}</p>
           </nav>
         )}
       </div>
