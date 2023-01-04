@@ -1,5 +1,6 @@
 import List from "./components/List";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         className="navbar sticky-top navbar-light
 bg-dark"
       >
-        <h1 className="navbar-brand text-light">Rick and Morty</h1>
+        <Header />
       </nav>
       <List />
     </div>
